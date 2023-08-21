@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace DNR_Aquatics
 {
@@ -8,7 +7,6 @@ namespace DNR_Aquatics
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
-            filters.Add(new RequireHttpsAttribute());
         }
     }
 }

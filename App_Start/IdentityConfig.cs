@@ -5,8 +5,10 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using DNR_Aquatics.Models;
 
-namespace DNR_Aquatics.App_Start
+namespace DNR_Aquatics
 {
+    // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
+
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {
         public ApplicationUserManager(IUserStore<ApplicationUser> store)

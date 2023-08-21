@@ -16,7 +16,6 @@ using Microsoft.Owin.Security.OAuth;
 using DNR_Aquatics.Models;
 using DNR_Aquatics.Providers;
 using DNR_Aquatics.Results;
-using DNR_Aquatics.App_Start;
 
 namespace DNR_Aquatics.Controllers
 {
